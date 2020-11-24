@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DevOpsArtifactDownloader": {
+      "commandName": "Project",
+      "commandLineArgs": "-o *organization* -t *accesstoken* -p *project* -d 5 -b \"refs/heads/develop\" -a \"*project* #{buildId}\" -r Build.zip"
+    }
+  }
+}
